@@ -1,4 +1,5 @@
 require('dotenv').config();
+mongoose.connect("mongodb+srv://agent-zero:jb17xtrem@cluster0.gnfjpnm.mongodb.net/fcc-mongodb?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true });
 
 
 let Person;
